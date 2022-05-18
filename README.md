@@ -13,13 +13,13 @@ pip install virtualenv
 2. Setup a virtual environment.
 
 ```
-virtualenv venv
+virtualenv .venv
 ```
 
 3. Enter the environment
 
 ```
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 4. Install the required dependencies
@@ -28,4 +28,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5. Start main.py
+5. Start main.py in the src directory.
